@@ -1,0 +1,179 @@
+.container-fluid {
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+}
+
+body.active {
+    background: #000;
+}
+
+.left-page {
+    border-right: 1px solid #ececec;
+}
+
+.right-page .top {
+    background: #fff;
+    padding: 5px 10px;
+    align-items: center;
+}
+
+.right-page .top .d {
+    margin-right: 10px;
+    font-size: 20px;
+}
+
+.right-page .top .dd span  {
+    top: 0;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.right-page .top h3 {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.right-page .bottom {
+    display: block;
+}
+
+.right-page .btn {
+    margin-top: 20px;
+    margin-left: 10px;
+    pointer-events: none;
+    display: block;
+    border: none !important;
+    text-align: start;
+}
+
+.right-page .btn span {
+    font-size: 13px;
+}
+
+.right-page .me {
+    margin-left: 100px;
+}
+
+.right-page .me button:nth-child(1) {
+    margin-left: 980px !important;
+}
+
+.right-page .me button:nth-child(2) {
+    margin-left: 960px !important;
+}
+
+.right-page .onam, .javascript, .english-2, .maktab, .dostlar, .english-1, .onam-2, .friends-group, .speaker-2 {
+    height: 100vh;
+    overflow: auto;
+}
+
+.mom.active {
+    background: #a0cfec;
+}
+
+.footbal.active {
+    background: #a0cfec;
+}
+
+.js.active {
+    background: #a0cfec;
+}
+
+.level-2.active {
+    background: #a0cfec;
+}
+
+.school.active {
+    background: #a0cfec;
+}
+
+.friends.active {
+    background: #a0cfec;
+}
+
+.eng.active {
+    background: #a0cfec;
+}
+
+.mom-2.active {
+    background: #a0cfec;
+}
+
+.friends-2.active {
+    background: #a0cfec;
+}
+
+.speaker.active {
+    background: #a0cfec;
+}
+
+.back {
+    pointer-events: auto;
+    cursor: pointer;
+}
+
+.badge {
+    background: #5353ff !important;
+    border-radius: 20px !important;
+}
+
+.group {
+    padding: 10px 10px 10px 5px !important;
+}
+
+.onam {
+    background-image: url('https://unblast.com/wp-content/uploads/2021/01/Space-Background-Images.jpg');
+    background-size: cover;
+    background-position: center;
+    overflow-x: auto;
+}
+
+.javascript {
+    background: url('https://bairesdev.mo.cloudinary.net/blog/2023/08/What-Is-JavaScript-Used-For.jpg');
+    background-size: cover;
+}
+
+.friends-group {
+    background: url('https://yt3.googleusercontent.com/Jv_qPbZo8iNMT9W2v6ZQRb3chJJZDFMI2MiIbd57_zJcvcBYUusmJfdN5-3rdWZ95CsbJ7Ro=s900-c-k-c0x00ffffff-no-rj');
+    background-size: cover;
+    background-position: center;
+}
+
+.english-1 {
+    background: url('https://www.shutterstock.com/shutterstock/photos/1043962963/display_1500/stock-vector-design-concept-of-word-english-website-banner-1043962963.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.onam-2 {
+    background: url('https://images.rawpixel.com/image_800/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIzLTAzL3JtNjIzLXktYmFja2dyb3VuZC1hZGotMDA0Yi0wMS5qcGc.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.my-msg {
+    display: none;  
+}
+
+.my-msg.active {
+    display: block !important;
+}
+
+.send-msg {
+    position: fixed;
+    top: 755px;
+    margin-right: 20px;
+    width: 70%;
+}
+
+.send-msg .btn {
+    margin-top: 45px !important;
+    pointer-events: auto;
+    border: 2px solid #fff !important;
+    height: 40px !important;
+    color: #fff;
+}
+
+.send-msg input {
+    width: 100% !important;
+}
